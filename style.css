@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 4px;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjetaProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid green;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+.imagen {
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#carrito {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: flex;
+}
